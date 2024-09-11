@@ -10,8 +10,10 @@
                         <a href="#" class="primary-btn">Add to carte </a>
 
                     </div>
-
                 </div>
+                <div *ngIf="products?.length==0" class="alert alert-warning col-md-12" role="alert">
+                    No matching products could be found.
+                  </div>
             </div>
 
         </div>

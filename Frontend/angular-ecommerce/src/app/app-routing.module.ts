@@ -4,6 +4,9 @@ import { ProductListComponent } from './components/product-list/product-list.com
 
 const routes: Routes = [
   {
+    path:'search/:keyword', component: ProductListComponent
+  },
+  {
     path:'category/:id', component: ProductListComponent
   },
   {
